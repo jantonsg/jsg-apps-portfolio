@@ -1,4 +1,4 @@
-Angular SG Portfolio Apps
+Angular JSG Apps Portfolio
 ==========================
 
 This is an app/website that contains some of my projects developed during University degree.

@@ -1,5 +1,5 @@
 {
-  "name": "sg-apps-portfolio",
+  "name": "jsg-apps-portfolio",
   "version": "1.0.0",
   "description": "Cordova/Angular App to simulate an apps catalog",
   "main": "index.js",

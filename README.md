@@ -8,7 +8,7 @@ There are more information on my website. "http://jantoniosances.com" which it w
 ```
 npm install -g grunt-cli
 
-Install and enable [https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi] "Chrome CORS Extension"
+Install and enable [Chrome CORS Extension] "https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi"
 ```
 
 ## Installation 

@@ -1,0 +1,9 @@
+<img class="screenshots-poster img-responsive" 
+	ng-src="{{vm.screenshots[0]}}" 
+	drpx-as="poster">
+
+<e ng-repeat="screen in vm.screenshots">
+	<img class='screenshots-slider img-thumbnail' 
+		ng-src='{{screen}}'
+		ng-click='vm.selectImage(screen)'>
+</e>

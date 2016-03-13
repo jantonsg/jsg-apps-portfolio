@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="storeAppsDemo" ng-strict-di>
+<head>
+	<title>Store Apps Demo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- build:css({.tmp,.}) app.css -->
+	<link href="bundle.css" rel='stylesheet' type='text/css'>
+	<!-- endbuild -->
+
+	<style>
+	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+		display: none !important;
+	}
+	</style>
+</head>
+<body ng-cloak>
+
+	<div class="">
+		<ng-view autoscroll></ng-view>
+	</div>
+
+	<script type="text/javascript" src="winstore-jscompat.js"></script>
+	<!-- build:js({.tmp,.}) app.js -->
+	<script src="bundle.js"></script>
+	<!-- endbuild -->
+	<script type="text/javascript" src="cordova.js"></script>
+</body>
+</html>

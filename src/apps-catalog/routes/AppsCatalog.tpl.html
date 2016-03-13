@@ -1,0 +1,28 @@
+<jsg-mobile-header 
+	data-title="vm.mobileHeader.title"
+	data-showbackbtn="vm.mobileHeader.showBackBtn">
+</jsg-mobile-header>
+
+<table class="table table-striped table-hover">
+  <tbody>
+        <tr ng-repeat="appid in vm.apps"
+            ng-init="app=vm.getApp(appid)"
+            ng-click="vm.goToApp(appid)"
+        >
+          <td class="col-xs-3 col-sm-3 col-md-2 col-lg-2"> 
+            <img class="img-thumbnail" ng-src="{{app.icon}}">
+          </td>
+          
+          <td class="catalog-title">
+            <h3><strong>{{app.title}}</strong></h3>
+          </td>
+
+          <td class="catalog-icons text-right">
+            <jsg-mobile-platforms 
+              data-platforms="app.platforms">
+            </jsg-mobile-platforms>
+          </td>
+
+        </tr>
+  </tbody>
+</table>

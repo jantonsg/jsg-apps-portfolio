@@ -1,0 +1,24 @@
+<jsg-mobile-header 
+	data-title="vm.mobileHeader.title"
+	data-showbackbtn="vm.mobileHeader.showBackBtn"
+  on-go-back="vm.goBackButton()">
+</jsg-mobile-header>
+
+<div class="app-wrapper">
+	<jsg-mobile-screenshots class="app-image" 
+		ng-if="vm.app.screenshots.length > 0"
+		data-screenshots="vm.app.screenshots">
+	</jsg-mobile-screenshots>
+	
+	<jsg-iframe class="app-image" 
+		ng-if="vm.app.video"
+		data-media-url="vm.app.video">
+	</jsg-iframe>
+	
+	<div class="app-content">
+	<span class="app-description"> {{vm.app.description}}</span>
+	</div>
+	<div class="app-platforms">
+		<jsg-mobile-platforms data-platforms="vm.app.platforms"></jsg-mobile-platforms>
+	</div>
+</div>
